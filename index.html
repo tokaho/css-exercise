@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Box Model</title>
+    <style>
+        main {
+            height: 500px;
+            border: 2px solid green;
+            display: flex;
+            justify-content: center;
+            align-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        span{
+            position:absolute;
+            top:-0px;
+            left:15px;
+        }
+        div {
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            border: 2px dashed purple;
+        }
+
+        p {
+            /* Fill in the blank with answer1*/
+            width: 50;
+            /* Fill in the blank with answer2*/
+            padding: 30px;
+            /* Fill in the blank with answer3 the property of top/bottom/left/right are all same*/
+            border: 1px solid red;
+            /* Fill in the blank with answer4 and answer5*/
+            background-color: pink;
+            margin: 20px;
+            /* Fill in the blank with answer6 the property of top/bottom/left/right are all same */
+            font-size: 30px;
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <span>
+            <h1>The flex Property</h1>
+            Implement the CSS file ans use the flex display the four seats in two rows as the given UI.
+        </span>
+        <div>
+            <p>
+                Seat 1
+            </p>
+            <p>
+                Seat 2
+            </p>
+            <p>
+                Seat 3
+            </p>
+            <p>
+                Seat 4
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
